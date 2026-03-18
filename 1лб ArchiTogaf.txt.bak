@@ -171,6 +171,7 @@
     <element xsi:type="archimate:InfluenceRelationship" name="Influence relation" id="id-28d78d1e2c29448597ac53fc8ada9f57" source="id-919e3d89b5b4409da28fb26e54081b03" target="id-b5ee2639398241f189361cefdddffc30"/>
     <element xsi:type="archimate:InfluenceRelationship" name="Influence relation" id="id-dc0bbaa2a82942ed9d6c5210582505d2" source="id-919e3d89b5b4409da28fb26e54081b03" target="id-919e3d89b5b4409da28fb26e54081b03"/>
     <element xsi:type="archimate:InfluenceRelationship" name="Influence relation" id="id-a26a5d847dfe40c0b73b64f398556643" source="id-9ac83dab88654964ae490fe974cd4bf9" target="id-9ac83dab88654964ae490fe974cd4bf9"/>
+    <element xsi:type="archimate:FlowRelationship" name="Flow relation" id="id-aeb9201845e0418d91c0a685ea6ceab6" source="id-0a6637fe535845ef9c3dfd6de8281e94" target="id-0a6637fe535845ef9c3dfd6de8281e94"/>
   </folder>
   <folder name="Views" id="id-ae4da195289b4322b4f744f89a9e9be1" type="diagrams">
     <folder name="Phahe_A_Vision" id="id-407f9e97f57c455faa0a87e3d019d119">
@@ -587,7 +588,7 @@
           </sourceConnection>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-6b509e15ed4b40ada081a18e5562af32" targetConnections="id-5440bd9a58e04971a23b367b76f74052 id-6ed1f3eafcfa4556b1b5ba06447bf8da" archimateElement="id-dcd514df35ca4af98bea811520a0172e">
-          <bounds x="787" y="480" width="144" height="61"/>
+          <bounds x="792" y="468" width="144" height="61"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-6ed1f3eafcfa4556b1b5ba06447bf8da" source="id-6b509e15ed4b40ada081a18e5562af32" target="id-6b509e15ed4b40ada081a18e5562af32" archimateRelationship="id-92cb95bc77c94856a943927458fb1db8">
             <bendpoint startY="60" endY="60"/>
             <bendpoint startX="100" startY="60" endX="100" endY="60"/>
@@ -606,10 +607,17 @@
           <bounds x="60" y="168" width="120" height="55"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-7375420f66ac4ccca6be6e2ccd5e162d" source="id-1fad30f8a4d042d7a3b4b97059877b1f" target="id-f898758646bc4bee99e4d4f998a5fd78" archimateRelationship="id-7871a7827a9c40baa6c9673aafa2a9b8"/>
         </child>
-        <child xsi:type="archimate:DiagramObject" id="id-ea5956b9dbe64d609d041e7b6d67d85a" archimateElement="id-0a6637fe535845ef9c3dfd6de8281e94">
+        <child xsi:type="archimate:DiagramObject" id="id-ea5956b9dbe64d609d041e7b6d67d85a" targetConnections="id-2155eb04133b404182d06410019034ff" archimateElement="id-0a6637fe535845ef9c3dfd6de8281e94">
           <bounds x="373" y="454" width="120" height="55"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-76a3d134363c4230b1d9ac5efb96d56e" source="id-ea5956b9dbe64d609d041e7b6d67d85a" target="id-f898758646bc4bee99e4d4f998a5fd78" archimateRelationship="id-9a5f7a456539468abff5c1190256c1c2"/>
-          <sourceConnection xsi:type="archimate:Connection" id="id-5440bd9a58e04971a23b367b76f74052" source="id-ea5956b9dbe64d609d041e7b6d67d85a" target="id-6b509e15ed4b40ada081a18e5562af32" archimateRelationship="id-f7e96922ba164750a074470acc972943"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-5440bd9a58e04971a23b367b76f74052" source="id-ea5956b9dbe64d609d041e7b6d67d85a" target="id-6b509e15ed4b40ada081a18e5562af32" archimateRelationship="id-f7e96922ba164750a074470acc972943">
+            <bendpoint startX="215" startY="-13" endX="-216" endY="-30"/>
+          </sourceConnection>
+          <sourceConnection xsi:type="archimate:Connection" id="id-2155eb04133b404182d06410019034ff" source="id-ea5956b9dbe64d609d041e7b6d67d85a" target="id-ea5956b9dbe64d609d041e7b6d67d85a" archimateRelationship="id-aeb9201845e0418d91c0a685ea6ceab6">
+            <bendpoint startY="60" endY="60"/>
+            <bendpoint startX="100" startY="60" endX="100" endY="60"/>
+            <bendpoint startX="100" endX="100"/>
+          </sourceConnection>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-cba9d52280fb405ab8898248053e0e86" archimateElement="id-93634870d18c4ed1bd982ea701939d94">
           <bounds x="73" y="397" width="120" height="55"/>
